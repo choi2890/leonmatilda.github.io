@@ -1,47 +1,23 @@
 import React from "react";
 
 const Navbar = ({ setActiveTab, activeTab }) => {
+  const tabs = ["about", "resume", "portfolio", "blog", "contact"];
+
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li className={`navbar-item ${activeTab === "about" ? "active" : ""}`}>
-          <button className="navbar-link" onClick={() => setActiveTab("about")}>
-            About
-          </button>
-        </li>
-        <li className={`navbar-item ${activeTab === "resume" ? "active" : ""}`}>
-          <button
-            className="navbar-link"
-            onClick={() => setActiveTab("resume")}
-          >
-            Resume
-          </button>
-        </li>
-        <li
-          className={`navbar-item ${activeTab === "portfolio" ? "active" : ""}`}
-        >
-          <button
-            className="navbar-link"
-            onClick={() => setActiveTab("portfolio")}
-          >
-            Portfolio
-          </button>
-        </li>
-        <li className={`navbar-item ${activeTab === "blog" ? "active" : ""}`}>
-          <button className="navbar-link" onClick={() => setActiveTab("blog")}>
-            Blog
-          </button>
-        </li>
-        <li
-          className={`navbar-item ${activeTab === "contact" ? "active" : ""}`}
-        >
-          <button
-            className="navbar-link"
-            onClick={() => setActiveTab("contact")}
-          >
-            Contact
-          </button>
-        </li>
+    <nav className="navbar fixed bottom-0 left-0 w-full bg-onyx bg-opacity-75 backdrop-blur-md border border-jet rounded-t-2xl shadow-lg z-10 md:relative md:top-0 md:right-0 md:w-auto md:border-none md:shadow-none">
+      <ul className="navbar-list flex justify-center items-center space-x-4 md:space-x-8">
+        {tabs.map((tab) => (
+          <li key={tab} className="navbar-item">
+            <button
+              className={`navbar-link text-light-gray text-xs py-4 px-2 transition-colors duration-300 md:text-sm ${
+                activeTab === tab ? "text-orange-yellow-crayola" : ""
+              }`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab.charAt(0).toUpperCase() + tab.slice(1)}
+            </button>
+          </li>
+        ))}
       </ul>
     </nav>
   );

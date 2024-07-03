@@ -28,11 +28,11 @@ const Main = () => {
   };
 
   return (
-    <div className="App">
+    <div className="flex">
       <Sidebar />
-      <div className="main-content">
+      <div className="main-content flex-1 ml-52 mt-4 bg-gray-100 border border-gray-800 rounded-2xl p-4 shadow-lg min-h-screen">
         <Navbar setActiveTab={setActiveTab} activeTab={activeTab} />
-        {renderContent()}
+        <div className="content-wrapper h-full">{renderContent()}</div>
       </div>
     </div>
   );
