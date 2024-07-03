@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/leonmatilda.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/leonmatilda.github.io/static/js/main.f61fa3c5.js",
+    "main.css": "/leonmatilda.github.io/static/css/main.9d135431.css",
+    "main.js": "/leonmatilda.github.io/static/js/main.e5a4e4db.js",
     "static/js/453.66848db0.chunk.js": "/leonmatilda.github.io/static/js/453.66848db0.chunk.js",
-    "static/media/logo.svg": "/leonmatilda.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/반명함.jpg": "/leonmatilda.github.io/static/media/반명함.8a8cc73dcfb41a6d01d5.jpg",
     "index.html": "/leonmatilda.github.io/index.html",
-    "main.f855e6bc.css.map": "/leonmatilda.github.io/static/css/main.f855e6bc.css.map",
-    "main.f61fa3c5.js.map": "/leonmatilda.github.io/static/js/main.f61fa3c5.js.map",
+    "main.9d135431.css.map": "/leonmatilda.github.io/static/css/main.9d135431.css.map",
+    "main.e5a4e4db.js.map": "/leonmatilda.github.io/static/js/main.e5a4e4db.js.map",
     "453.66848db0.chunk.js.map": "/leonmatilda.github.io/static/js/453.66848db0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f61fa3c5.js"
+    "static/css/main.9d135431.css",
+    "static/js/main.e5a4e4db.js"
   ]
 }
