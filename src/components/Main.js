@@ -12,7 +12,7 @@ const Main = () => {
 
   const renderContent = () => {
     switch (activeTab) {
-      case "about":
+      case "Introduction":
         return <About />;
       case "resume":
         return <Resume />;
@@ -28,11 +28,15 @@ const Main = () => {
   };
 
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="main-content flex-1 ml-52 mt-4 bg-gray-100 border border-gray-800 rounded-2xl p-4 shadow-lg min-h-screen">
+    <div className="flex flex-col lg:flex-row items-center justify-center w-full lg:w-4/5 h-screen mx-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:w-1/4 lg:h-full">
+        <Sidebar />
+      </div>
+      <div className="w-full lg:w-3/4 mt-4 lg:mt-0 bg-gray-100 border border-gray-800 rounded-2xl p-4 shadow-lg h-4/5 flex flex-col">
         <Navbar setActiveTab={setActiveTab} activeTab={activeTab} />
-        <div className="content-wrapper h-full">{renderContent()}</div>
+        <div className="content-wrapper flex-grow overflow-y-auto p-4">
+          {renderContent()}
+        </div>
       </div>
     </div>
   );

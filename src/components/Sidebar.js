@@ -3,95 +3,86 @@ import 반명함 from "../assets/images/반명함.jpg";
 
 const Sidebar = () => {
   return (
-    <aside
-      className="bg-eerie-black-2 border border-jet rounded-2xl p-4 shadow-shadow-1 z-10 sticky top-16 left-150 h-screen mt-4"
-      data-sidebar
-    >
-      <div className="sidebar-info flex flex-col items-center">
-        <figure className="avatar-box mb-4">
-          <img src={반명함} alt="반명함" className="w-24 h-24 rounded-full" />
+    <aside className="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-lg  lg:w-96 lg:sticky lg:top-16 lg:left-4 h-auto lg:h-4/5 z-20 lg:z-auto">
+      <div className="sidebar-info">
+        <figure className="avatar-box mb-6">
+          <img
+            src={반명함}
+            alt="반명함"
+            className="w-60 h-60 rounded-full mx-auto mt-8"
+          />
         </figure>
-        <div className="info-content mb-4 text-center">
-          <h1 className="name text-white-2 text-xl font-semibold">최현철</h1>
-          <p className="title text-gray-400"> developer</p>
+        <div className="info-content mb-6 text-center">
+          <h1 className="name text-white text-2xl font-semibold">최현철</h1>
+          <p className="title text-gray-400 text-lg">developer</p>
         </div>
-      </div>
-      <div className="sidebar-info_more">
-        <div className="separator bg-jet h-px my-4"></div>
-        <ul className="contacts-list space-y-4">
-          <li className="contact-item flex items-center space-x-3">
-            <div className="icon-box bg-border-gradient-onyx w-8 h-8 flex justify-center items-center rounded-md text-orange-yellow-crayola shadow-shadow-1">
+        <div className="separator bg-gray-800 h-1 my-6"></div>
+        <ul className="contacts-list space-y-6">
+          <li className="contact-item flex items-center space-x-4">
+            <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
             <div className="contact-info">
-              <p className="contact-title text-light-gray-70 text-xs uppercase mb-1">
-                Email
-              </p>
+              <p className="contact-title text-gray-400 text-lg">Email</p>
               <a
                 href="mailto:csr4180@naver.com"
-                className="contact-link text-white-2 text-sm"
+                className="contact-link text-white text-lg"
               >
                 csr4180@naver.com
               </a>
             </div>
           </li>
-          <li className="contact-item flex items-center space-x-3">
-            <div className="icon-box bg-border-gradient-onyx w-8 h-8 flex justify-center items-center rounded-md text-orange-yellow-crayola shadow-shadow-1">
+          <li className="contact-item flex items-center space-x-4">
+            <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
               <ion-icon name="call-outline"></ion-icon>
             </div>
             <div className="contact-info">
-              <p className="contact-title text-light-gray-70 text-xs uppercase mb-1">
-                Phone
-              </p>
+              <p className="contact-title text-gray-400 text-lg">Phone</p>
               <a
                 href="tel:+01041802890"
-                className="contact-link text-white-2 text-sm"
+                className="contact-link text-white text-lg"
               >
                 +82 01041802890
               </a>
             </div>
           </li>
-          <li className="contact-item flex items-center space-x-3">
-            <div className="icon-box bg-border-gradient-onyx w-8 h-8 flex justify-center items-center rounded-md text-orange-yellow-crayola shadow-shadow-1">
+          <li className="contact-item flex items-center space-x-4">
+            <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
             <div className="contact-info">
-              <p className="contact-title text-light-gray-70 text-xs uppercase mb-1">
-                Birthday
-              </p>
-              <time dateTime="1992-05-03" className="text-white-2 text-sm">
+              <p className="contact-title text-gray-400 text-lg">Birthday</p>
+              <time dateTime="1992-05-03" className="text-white text-lg">
                 05 03, 1992
               </time>
             </div>
           </li>
-          <li className="contact-item flex items-center space-x-3">
-            <div className="icon-box bg-border-gradient-onyx w-8 h-8 flex justify-center items-center rounded-md text-orange-yellow-crayola shadow-shadow-1">
+          <li className="contact-item flex items-center space-x-4">
+            <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
               <ion-icon name="location-outline"></ion-icon>
             </div>
             <div className="contact-info">
-              <p className="contact-title text-light-gray-70 text-xs uppercase mb-1">
-                Location
-              </p>
-              <address className="text-white-2 text-sm">
+              <p className="contact-title text-gray-400 text-lg">Location</p>
+              <address className="text-white text-lg">
                 서울, 강남구, 대한민국
               </address>
             </div>
           </li>
         </ul>
-        <div className="separator bg-jet h-px my-4"></div>
-        <ul className="social-list flex space-x-4">
+        <div className="separator bg-gray-800 h-1 my-6"></div>
+        <ul className="social-list flex space-x-6 justify-center">
           <li className="social-item">
-            <a href="#" className="social-link text-orange-yellow-crayola">
+            <a href="#" className="social-link text-yellow-400 text-2xl">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link text-orange-yellow-crayola">
+            <a href="#" className="social-link text-yellow-400 text-2xl">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link text-orange-yellow-crayola">
+            <a href="#" className="social-link text-yellow-400 text-2xl">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
