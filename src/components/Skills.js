@@ -1,6 +1,6 @@
 import React from "react";
 
-const Resume = () => {
+const Skills = () => {
   return (
     <article className="resume active bg-eerie-black-2 border border-jet rounded-2xl p-4 shadow-shadow-1">
       <header>
@@ -175,4 +175,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Skills;

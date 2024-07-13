@@ -2,6 +2,7 @@ import React from "react";
 import 로고 from "../assets/images/로고.jpg";
 import 쿠팡 from "../assets/images/쿠팡.png";
 import 중앙정보처리 from "../assets/images/중앙정보처리.png";
+import 군산대학교 from "../assets/images/군산대학교.png";
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
         </p>
       </section>
       <section className="service mb-10">
-        <h3 className="text-4xl text-white-2 font-semibold mb-6">이력</h3>
+        <h3 className="text-4xl text-white-2 font-semibold mb-6">Experience</h3>
         <ul className="service-list grid gap-8 lg:grid-cols-2">
           <li className="service-item bg-border-gradient-onyx p-6 rounded-lg shadow-shadow-2 relative">
             <div className="service-icon-box mb-2 mx-auto">
@@ -71,8 +72,26 @@ const About = () => {
         </ul>
       </section>
       <section className="service mb-10">
-        <h3 className="text-4xl text-white-2 font-semibold mb-6">교육</h3>
-        <ul className="service-list grid gap-8">
+        <h3 className="text-4xl text-white-2 font-semibold mb-6">Education</h3>
+        <ul className="service-list grid gap-8 lg:grid-cols-2">
+          <li className="service-item bg-border-gradient-onyx p-6 rounded-lg shadow-shadow-2 relative">
+            <div className="service-icon-box mb-2 mx-auto">
+              <img
+                src={군산대학교}
+                alt="mobile app icon"
+                width="100"
+                className="m-auto"
+              />
+            </div>
+            <div className="service-content-box text-center">
+              <h4 className="text-2xl text-white-2 font-medium mb-2">
+                Student
+              </h4>
+              <p className="text-light-gray text-xl font-light leading-6">
+                [2011. 03. ~ 2020. 12.] 기계융합시스템 미래자동차과 학사 졸업
+              </p>
+            </div>
+          </li>
           <li className="service-item bg-border-gradient-onyx p-6 rounded-lg shadow-shadow-2 relative">
             <div className="service-icon-box mb-2 mx-auto">
               <img
@@ -95,7 +114,9 @@ const About = () => {
         </ul>
       </section>
       <section className="service mb-10">
-        <h3 className="text-4xl text-white-2 font-semibold mb-6">자격증</h3>
+        <h3 className="text-4xl text-white-2 font-semibold mb-6">
+          Certificate
+        </h3>
         <ul className="service-list grid gap-8 lg:grid-cols-2">
           <li className="service-item bg-border-gradient-onyx p-6 rounded-lg shadow-shadow-2 relative">
             <div className="service-content-box text-center">

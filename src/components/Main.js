@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import About from "./About";
-import Resume from "./Resume";
+import Skills from "./Skills";
 import Portfolio from "./Portfolio";
 import Blog from "./Blog";
 import Contact from "./Contact";
@@ -14,9 +14,9 @@ const Main = () => {
     switch (activeTab) {
       case "Introduction":
         return <About />;
-      case "resume":
-        return <Resume />;
-      case "portfolio":
+      case "Skills":
+        return <Skills />;
+      case "Portfolio":
         return <Portfolio />;
       case "blog":
         return <Blog />;
