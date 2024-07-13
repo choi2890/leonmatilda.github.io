@@ -32,7 +32,7 @@ const Main = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center lg:w-1/4 lg:h-full">
         <Sidebar />
       </div>
-      <div className="w-full lg:w-3/4 mt-4 lg:mt-0 bg-gray-100 border border-gray-800 rounded-2xl p-4 shadow-lg h-4/5 flex flex-col">
+      <div className="w-full lg:w-3/4 mt-4 lg:mt-0 bg-gray-900 border rounded-2xl p-4 shadow-lg h-4/5 flex flex-col">
         <Navbar setActiveTab={setActiveTab} activeTab={activeTab} />
         <div className="content-wrapper flex-grow overflow-y-auto p-4">
           {renderContent()}

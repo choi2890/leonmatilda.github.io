@@ -45,7 +45,7 @@ webRTC와 websockt 기능을 통해 다른 공간에서 실시간으로 같이
   ];
 
   return (
-    <article className="blog active bg-eerie-black-2 border border-jet rounded-2xl p-4 shadow-shadow-1">
+    <article className="blog active bg-gray-800  rounded-2xl p-4 shadow-shadow-1">
       <header>
         <h2 className="text-5xl text-white-2 font-semibold mb-4">Portfolio</h2>
       </header>

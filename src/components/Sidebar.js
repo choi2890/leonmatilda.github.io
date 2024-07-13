@@ -46,17 +46,7 @@ const Sidebar = () => {
               </a>
             </div>
           </li>
-          <li className="contact-item flex items-center space-x-4">
-            <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-            <div className="contact-info">
-              <p className="contact-title text-gray-400 text-lg">Birthday</p>
-              <time dateTime="1992-05-03" className="text-white text-lg">
-                05 03, 1992
-              </time>
-            </div>
-          </li>
+
           <li className="contact-item flex items-center space-x-4">
             <div className="icon-box bg-gray-700 w-12 h-12 flex justify-center items-center rounded-md text-yellow-400 shadow-md">
               <ion-icon name="location-outline"></ion-icon>
