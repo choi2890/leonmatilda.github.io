@@ -62,17 +62,29 @@ const Sidebar = () => {
         <div className="separator bg-gray-800 h-1 my-6"></div>
         <ul className="social-list flex space-x-6 justify-center">
           <li className="social-item">
-            <a href="#" className="social-link text-yellow-400 text-2xl">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a
+              href="https://github.com/choi2890"
+              className="social-link text-white text-2xl"
+            >
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link text-yellow-400 text-2xl">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a
+              href="https://www.notion.so/991cfbb929604b54a7258358e6a01bdd"
+              className="social-link text-yellow-400 text-2xl"
+            >
+              <img
+                className="w-7 h-7 "
+                src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1570106347/noticon/hx52ypkqqdzjdvd8iaid.svg"
+              ></img>
             </a>
           </li>
           <li className="social-item">
-            <a href="#" className="social-link text-yellow-400 text-2xl">
+            <a
+              href="https://www.instagram.com/climb_leon/"
+              className="social-link text-white text-2xl"
+            >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>

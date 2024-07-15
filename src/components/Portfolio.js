@@ -89,7 +89,7 @@ webRTC와 websockt 기능을 통해 다른 공간에서 실시간으로 같이
                       href={post.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center px-4 py-2 bg-gray-800 text-white text-lg font-semibold rounded-lg transition-colors duration-300 hover:bg-gray-900"
+                      className="inline-flex items-center px-4 py-2 bg-blue-600 text-white text-lg font-semibold rounded-lg transition-colors duration-300 hover:bg-gray-900"
                     >
                       <ion-icon name="logo-github" class="mr-2"></ion-icon>
                       View on GitHub
